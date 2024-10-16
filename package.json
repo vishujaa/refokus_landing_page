@@ -1,12 +1,12 @@
 {
-  "homepage": "vishujaa.github.io/",
+  "homepage": "https://vishujaa.github.io/project01/",
   "name": "project01",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "preeploy": "npm run build",
-    "deploy":"gh pages -d dist",
+    "predeploy": "npm run build",  // Correct spelling here
+    "deploy": "gh-pages -d dist",  // Correct gh-pages command
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
